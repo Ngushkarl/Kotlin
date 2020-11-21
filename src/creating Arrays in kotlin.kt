@@ -18,5 +18,6 @@ fun main(){
     val ite = users.get(0)
     println(ite)
 
+    users.forEach { println(it) }
 
 }
